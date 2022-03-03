@@ -1,0 +1,20 @@
+{
+  "$schema": "file:///${ROOT}/softdata/git/YoshikoPacks/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.3",
+    "name": "バニラ1.15.2 (Minecraft 1.15.2)",
+    "description": "1.15.2 + Modが導入された構成ギリ。",
+    "address": "play.kome-lab.net:25565",
+    "discord": {
+      "shortId": "Minecraft",
+      "largeImageText": "Minecraft1.15.2",
+      "largeImageKey": "pack_15"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "31.2.57"
+  },
+  "untrackedFiles": []
+}

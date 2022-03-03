@@ -1,0 +1,20 @@
+{
+  "$schema": "file:///${ROOT}/softdata/git/YoshikoPacks/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.1.3",
+    "name": "ドラゴンクラフト(Minecraft 1.16.5)",
+    "description": "ドラゴンModで遊べる構成ギリ。便利なModも入ってるギリ。",
+    "address": "play.kome-lab.net:25565",
+    "discord": {
+      "shortId": "Minecraft",
+      "largeImageText": "Minecraft1.16.5",
+      "largeImageKey": "pack_dragon"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "36.2.23"
+  },
+  "untrackedFiles": []
+}
