@@ -1,0 +1,20 @@
+{
+  "$schema": "file:///${ROOT}/softdata/git/YoshikoPacks/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "0.0.1",
+    "name": "使用不可-開発者用",
+    "description": "使用不可-開発者用",
+    "address": "play.kome-lab.net:25565",
+    "discord": {
+      "shortId": "Minecraft",
+      "largeImageText": "Minecraft1.18.2",
+      "largeImageKey": "pack_18"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "40.0.2"
+  },
+  "untrackedFiles": []
+}
