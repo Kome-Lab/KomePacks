@@ -1,5 +1,5 @@
 {
-  "version": "1.1.5",
+  "version": "1.0.0",
   "rss": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/news/news.rss",
   "discord": {
     "clientId": "892636912781758485",
@@ -7,6 +7,408 @@
     "smallImageKey": "pack_kome"
   },
   "servers": [
+    {
+      "id": "Minecraft_100-1.18.2",
+      "name": "使用不可-開発者用",
+      "description": "使用不可-開発者用",
+      "icon": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_100-1.18.2/pack.png",
+      "version": "0.0.1",
+      "address": "play.kome-lab.net:25565",
+      "minecraftVersion": "1.18.2",
+      "discord": {
+        "shortId": "Minecraft",
+        "largeImageText": "Minecraft1.18.2",
+        "largeImageKey": "pack_18"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.18.2-40.0.2:installer",
+          "name": "Minecraft Forge (installer)",
+          "type": "Forge",
+          "artifact": {
+            "size": 6892042,
+            "MD5": "6349a9203963012599a2674bd40ba61b",
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/repo/lib/net/minecraftforge/forge/1.18.2-40.0.2/forge-1.18.2-40.0.2-installer.jar"
+          },
+          "subModules": []
+        },
+        {
+          "id": "com.sintinium:oauth:1.1.12@jar",
+          "name": "OAuth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 98172,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_100-1.18.2/forgemods/required/oauth-1.1.12-1.18.2.jar",
+            "MD5": "a45a0efd136eb9e04644b060fe714721"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Minecraft_1RPG-1.16.5",
+      "name": "Yoshiko-chan-100k-Subs-Network",
+      "description": "よしこRPG1.16.5用の構成ギリ。",
+      "icon": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_1RPG-1.16.5/pack.png",
+      "version": "1.0.5",
+      "address": "play.kome-lab.net:25565",
+      "minecraftVersion": "1.16.5",
+      "discord": {
+        "shortId": "Minecraft",
+        "largeImageText": "YoshikoRPG",
+        "largeImageKey": "pack_rpg"
+      },
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.16.5-36.2.23:installer",
+          "name": "Minecraft Forge (installer)",
+          "type": "Forge",
+          "artifact": {
+            "size": 7391429,
+            "MD5": "8bd6aa68b6337f8495dddf32a9d40238",
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/repo/lib/net/minecraftforge/forge/1.16.5-36.2.23/forge-1.16.5-36.2.23-installer.jar"
+          },
+          "subModules": []
+        },
+        {
+          "id": "com.mamiyaotaru.voxelmap.forgemod:voxelmap:1.10.15@jar",
+          "name": "VoxelMap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 827220,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_1RPG-1.16.5/forgemods/required/forgemod_VoxelMap-1.10.12_for_1.16.5.jar",
+            "MD5": "1b507d537838539a040e87e00acf92ff"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:7.7.1.122@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 814235,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_1RPG-1.16.5/forgemods/optionalon/jei-1.16.5-7.7.1.122.jar",
+            "MD5": "d2235dc66683c56b99929d7ed0992a52"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.sintinium:oauth:1.0@jar",
+          "name": "OAuth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 87805,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_1RPG-1.16.5/forgemods/required/oauth-1.1.4-1.16.jar",
+            "MD5": "fd99bc57fe4509888a2f6dffc31169db"
+          }
+        },
+        {
+          "id": "net.torocraft:torohealth:1.16.4-forge-4@jar",
+          "name": "ToroHealth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 96418,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_1RPG-1.16.5/forgemods/optionalon/torohealth-1.16.4-forge-4.jar",
+            "MD5": "2cb4db18b135498a7eee6c1b17926d1e"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.kunmc.lab:vplayer:1.3-1.16.5-SNAPSHOT@jar",
+          "name": "VideoPlayer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 41076250,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_1RPG-1.16.5/forgemods/required/vplayer-1.3-1.16.5-SNAPSHOT-all.jar",
+            "MD5": "de71dafb8ca3422ba13cbd167eaeb761"
+          }
+        },
+        {
+          "id": "com.github.hexomod:worldeditcuife3:3.0.9@jar",
+          "name": "WorldEdit CUI Forge Edition 3",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 869842,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_1RPG-1.16.5/forgemods/optionalon/WorldEdit-CUI-FE3-1.16.5-3.0.9.jar",
+            "MD5": "5e1cf122014961085243d00507ec360d"
+          },
+          "required": {
+            "value": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "Minecraft_2-1.16.5",
+      "name": "バニラ1.16.5 (Minecraft 1.16.5)",
+      "description": "Forge 1.16.5 + VideoPlayerMod + Modが導入されている構成ギリ。",
+      "icon": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_2-1.16.5/pack.png",
+      "version": "1.0.4",
+      "address": "play.kome-lab.net:25565",
+      "minecraftVersion": "1.16.5",
+      "discord": {
+        "shortId": "Minecraft",
+        "largeImageText": "Minecraft1.16.5",
+        "largeImageKey": "pack_16"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.16.5-36.2.23:installer",
+          "name": "Minecraft Forge (installer)",
+          "type": "Forge",
+          "artifact": {
+            "size": 7391429,
+            "MD5": "8bd6aa68b6337f8495dddf32a9d40238",
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/repo/lib/net/minecraftforge/forge/1.16.5-36.2.23/forge-1.16.5-36.2.23-installer.jar"
+          },
+          "subModules": []
+        },
+        {
+          "id": "com.mamiyaotaru.voxelmap.forgemod:voxelmap:1.10.15@jar",
+          "name": "VoxelMap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 827220,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_2-1.16.5/forgemods/optionalon/forgemod_VoxelMap-1.10.12_for_1.16.5.jar",
+            "MD5": "1b507d537838539a040e87e00acf92ff"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "mezz.jei:jei:7.7.1.122@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 814235,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_2-1.16.5/forgemods/optionalon/jei-1.16.5-7.7.1.122.jar",
+            "MD5": "d2235dc66683c56b99929d7ed0992a52"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.sintinium:oauth:1.0@jar",
+          "name": "OAuth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 87805,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_2-1.16.5/forgemods/required/oauth-1.1.4-1.16.jar",
+            "MD5": "fd99bc57fe4509888a2f6dffc31169db"
+          }
+        },
+        {
+          "id": "net.torocraft:torohealth:1.16.4-forge-4@jar",
+          "name": "ToroHealth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 96418,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_2-1.16.5/forgemods/optionalon/torohealth-1.16.4-forge-4.jar",
+            "MD5": "2cb4db18b135498a7eee6c1b17926d1e"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.kunmc.lab:vplayer:1.3-1.16.5-SNAPSHOT@jar",
+          "name": "VideoPlayer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 41076250,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_2-1.16.5/forgemods/optionalon/vplayer-1.3-1.16.5-SNAPSHOT-all.jar",
+            "MD5": "de71dafb8ca3422ba13cbd167eaeb761"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.github.hexomod:worldeditcuife3:3.0.9@jar",
+          "name": "WorldEdit CUI Forge Edition 3",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 869842,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_2-1.16.5/forgemods/optionalon/WorldEdit-CUI-FE3-1.16.5-3.0.9.jar",
+            "MD5": "5e1cf122014961085243d00507ec360d"
+          },
+          "required": {
+            "value": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "Minecraft_3Fabric-1.16.5",
+      "name": "Minecraft Fabric 1.16.5",
+      "description": "FabricModが使える構成ギリ。使い慣れてる人推奨ギリ。※ForgeModは使えないギリ。",
+      "icon": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_3Fabric-1.16.5/pack.png",
+      "version": "1.0.5",
+      "address": "play.kome-lab.net:25565",
+      "minecraftVersion": "1.16.5",
+      "discord": {
+        "shortId": "Minecraft",
+        "largeImageText": "Fabric1.16.5",
+        "largeImageKey": "pack_fabric"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.16.5-36.2.23:installer",
+          "name": "Minecraft Forge (installer)",
+          "type": "Forge",
+          "artifact": {
+            "size": 7391429,
+            "MD5": "8bd6aa68b6337f8495dddf32a9d40238",
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/repo/lib/net/minecraftforge/forge/1.16.5-36.2.23/forge-1.16.5-36.2.23-installer.jar"
+          },
+          "subModules": []
+        },
+        {
+          "id": "RoughlyEnoughItems-5.12.248.jar",
+          "name": "RoughlyEnoughItems-5.12.248.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1137584,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_3Fabric-1.16.5/files/mods/RoughlyEnoughItems-5.12.248.jar",
+            "MD5": "cbf82ccb8f71192a4d524a2178ef39b1",
+            "path": "mods/RoughlyEnoughItems-5.12.248.jar"
+          }
+        },
+        {
+          "id": "WorldEditCUI-1.16.5+02.jar",
+          "name": "WorldEditCUI-1.16.5+02.jar",
+          "type": "File",
+          "artifact": {
+            "size": 127863,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_3Fabric-1.16.5/files/mods/WorldEditCUI-1.16.5+02.jar",
+            "MD5": "5e4f94a2a6e914bbadf95d4337355559",
+            "path": "mods/WorldEditCUI-1.16.5+02.jar"
+          }
+        },
+        {
+          "id": "fabric-api-0.40.1+1.16.jar",
+          "name": "fabric-api-0.40.1+1.16.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1081932,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_3Fabric-1.16.5/files/mods/fabric-api-0.40.1+1.16.jar",
+            "MD5": "7a3dbf956504701a0d1f0fb1b94f4808",
+            "path": "mods/fabric-api-0.40.1+1.16.jar"
+          }
+        },
+        {
+          "id": "fabricmod_VoxelMap-1.10.15_for_1.16.5.jar",
+          "name": "fabricmod_VoxelMap-1.10.15_for_1.16.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 783259,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_3Fabric-1.16.5/files/mods/fabricmod_VoxelMap-1.10.15_for_1.16.5.jar",
+            "MD5": "9f912e4f02ab5c712a93722da558ecae",
+            "path": "mods/fabricmod_VoxelMap-1.10.15_for_1.16.5.jar"
+          }
+        },
+        {
+          "id": "jumploader-2.1.3.jar",
+          "name": "jumploader-2.1.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 193754,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_3Fabric-1.16.5/files/mods/jumploader-2.1.3.jar",
+            "MD5": "e5b0443cdf409b8cba7f0a20b006911b",
+            "path": "mods/jumploader-2.1.3.jar"
+          }
+        },
+        {
+          "id": "oauth-fabric-1.0-1.16.5.jar",
+          "name": "oauth-fabric-1.0-1.16.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 51735,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_3Fabric-1.16.5/files/mods/oauth-fabric-1.0-1.16.5.jar",
+            "MD5": "6ab35f84d2a32cd90e0edfd1a1c1be84",
+            "path": "mods/oauth-fabric-1.0-1.16.5.jar"
+          }
+        },
+        {
+          "id": "torohealth-1.16.5-fabric-6.jar",
+          "name": "torohealth-1.16.5-fabric-6.jar",
+          "type": "File",
+          "artifact": {
+            "size": 109932,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_3Fabric-1.16.5/files/mods/torohealth-1.16.5-fabric-6.jar",
+            "MD5": "2c24e73df2b800d941d09927d9c8386b",
+            "path": "mods/torohealth-1.16.5-fabric-6.jar"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Minecraft_4-1.15.2",
+      "name": "バニラ1.15.2 (Minecraft 1.15.2)",
+      "description": "1.15.2 + Modが導入された構成ギリ。",
+      "icon": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_4-1.15.2/pack.png",
+      "version": "1.0.3",
+      "address": "play.kome-lab.net:25565",
+      "minecraftVersion": "1.15.2",
+      "discord": {
+        "shortId": "Minecraft",
+        "largeImageText": "Minecraft1.15.2",
+        "largeImageKey": "pack_15"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.15.2-31.2.57:installer",
+          "name": "Minecraft Forge (installer)",
+          "type": "Forge",
+          "artifact": {
+            "size": 6619925,
+            "MD5": "a651a604d6a9d31e997ec60e91c33826",
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/repo/lib/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-installer.jar"
+          },
+          "subModules": []
+        },
+        {
+          "id": "technicianlp.reauth:reauth:3.8.1@jar",
+          "name": "ReAuth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 35214,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_4-1.15.2/forgemods/optionalon/ReAuth-1.14-1.15-3.8.1.jar",
+            "MD5": "7a2655c439bb612f744afbe1bb3e56f7"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.kunmc.lab:vplayer:1.1-SNAPSHOT@jar",
+          "name": "VideoPlayer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 37609339,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_4-1.15.2/forgemods/optionalon/vplayer-1.1-SNAPSHOT-all.jar",
+            "MD5": "5de63bef9b389fa04882fa00e92d54da"
+          },
+          "required": {
+            "value": false
+          }
+        }
+      ]
+    },
     {
       "id": "Minecraft_5-1.12.2",
       "name": "バニラ1.12.2 (Minecraft 1.12.2)",
@@ -16,8 +418,8 @@
       "address": "play.kome-lab.net:25565",
       "minecraftVersion": "1.12.2",
       "discord": {
-        "shortId": "バニラ1.12.2",
-        "largeImageText": "バニラ1.12.2",
+        "shortId": "Minecraft",
+        "largeImageText": "Minecraft1.12.2",
         "largeImageKey": "pack_12"
       },
       "mainServer": false,
@@ -29,7 +431,7 @@
           "type": "ForgeHosted",
           "artifact": {
             "size": 4466148,
-            "MD5": "2B5B6CCFA3C6FFCEA9073D13D1EC5236",
+            "MD5": "2b5b6ccfa3c6ffcea9073d13d1ec5236",
             "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-universal.jar"
           },
           "subModules": [
@@ -38,8 +440,8 @@
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 10873,
-                "MD5": "814f52398b6ebf70d22571307d2298eb",
+                "size": 11799,
+                "MD5": "fdf65dd024faa5c9a51372e5fb975dfe",
                 "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/repo/versions/1.12.2-forge-14.23.5.2860/1.12.2-forge-14.23.5.2860.json"
               }
             },
@@ -232,6 +634,26 @@
                 "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
                 "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
               }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 301804,
+                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
+                "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1789769,
+                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
+                "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+              }
             }
           ]
         },
@@ -250,369 +672,13 @@
           }
         },
         {
-          "id": "technicianlp.reauth:reauth:3.6.0@jar",
-          "name": "ReAuth",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 30446,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_5-1.12.2/forgemods/optionalon/reauth-3.6.0.jar",
-            "MD5": "6024686e40df10b8739042ea2dce7f1a"
-          },
-          "required": {
-            "value": false
-          }
-        }
-      ]
-    },
-    {
-      "id": "Minecraft_4-1.15.2",
-      "name": "バニラ1.15.2 (Minecraft 1.15.2)",
-      "description": "1.15.2 + VideoPlayerが導入された構成ギリ。",
-      "icon": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_4-1.15.2/pack.png",
-      "version": "1.0.3",
-      "address": "play.kome-lab.net:25565",
-      "minecraftVersion": "1.15.2",
-      "discord": {
-        "shortId": "バニラ1.15.2",
-        "largeImageText": "バニラ1.15.2",
-        "largeImageKey": "pack_15"
-      },
-      "mainServer": false,
-      "autoconnect": false,
-      "modules": [
-        {
-          "id": "net.minecraftforge:forge:1.15.2-31.2.57:installer",
-          "name": "Minecraft Forge (installer)",
-          "type": "Forge",
-          "artifact": {
-            "size": 6619925,
-            "MD5": "A651A604D6A9D31E997EC60E91C33826",
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/repo/lib/net/minecraftforge/forge/1.15.2-31.2.57/forge-1.15.2-31.2.57-installer.jar"
-          },
-          "subModules": []
-        },
-        {
-          "id": "technicianlp.reauth:reauth:3.8.1@jar",
-          "name": "ReAuth",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 35214,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_4-1.15.2/forgemods/optionalon/ReAuth-1.14-1.15-3.8.1.jar",
-            "MD5": "7a2655c439bb612f744afbe1bb3e56f7"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "net.kunmc.lab:vplayer:1.1-SNAPSHOT@jar",
-          "name": "VideoPlayer",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 37609339,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_4-1.15.2/forgemods/optionalon/vplayer-1.1-SNAPSHOT-all.jar",
-            "MD5": "5de63bef9b389fa04882fa00e92d54da"
-          },
-          "required": {
-            "value": false
-          }
-        }
-      ]
-    },
-    {
-      "id": "Minecraft_2-1.16.5",
-      "name": "バニラ1.16.5 (Minecraft 1.16.5)",
-      "description": "Forge 1.16.5 + VideoPlayerMod + Modが導入されている構成ギリ。",
-      "icon": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_2-1.16.5/pack.png",
-      "version": "1.0.4",
-      "address": "play.kome-lab.net:25565",
-      "minecraftVersion": "1.16.5",
-      "discord": {
-        "shortId": "バニラ1.16.5",
-        "largeImageText": "バニラ1.16.5",
-        "largeImageKey": "pack_16"
-      },
-      "mainServer": false,
-      "autoconnect": false,
-      "modules": [
-        {
-          "id": "net.minecraftforge:forge:1.16.5-36.2.23:installer",
-          "name": "Minecraft Forge (installer)",
-          "type": "Forge",
-          "artifact": {
-            "size": 7391429,
-            "MD5": "8BD6AA68B6337F8495DDDF32A9D40238",
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/repo/lib/net/minecraftforge/forge/1.16.5-36.2.23/forge-1.16.5-36.2.23-installer.jar"
-          },
-          "subModules": []
-        },
-        {
-          "id": "com.sintinium.oauth:oauth-1.1.4-1.16@jar",
+          "id": "com.sintinium:oauth:1.06.1-1.12@jar",
           "name": "OAuth",
           "type": "ForgeMod",
           "artifact": {
-            "size": 87805,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_2-1.16.5/forgemods/required/oauth-1.1.4-1.16.jar",
-            "MD5": "fd99bc57fe4509888a2f6dffc31169db"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "worldeditcui-fe3-1.16.5-3.0.9@jar",
-          "name": "WorldEdit-CUI",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 869842,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_2-1.16.5/forgemods/optionalon/WorldEdit-CUI-FE3-1.16.5-3.0.9.jar",
-            "MD5": "5E1CF122014961085243D00507EC360D"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "mezz.jei:jei-1.16.5-7.7.1.122@jar",
-          "name": "JustEnoughItems,",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 814235,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_2-1.16.5/forgemods/optionalon/jei-1.16.5-7.7.1.122.jar",
-            "MD5": "2CB4DB18B135498A7EEE6C1B17926D1E"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "net.torocraft.torohealth:torohealth-1.16.4-forge-4@jar",
-          "name": "ToroHealth Damage Indicators",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 96418,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_2-1.16.5/forgemods/optionalon/torohealth-1.16.4-forge-4.jar",
-            "MD5": "D2235DC66683C56B99929D7ED0992A52"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "net.kunmc.lab:vplayer-1.3-1.16.5-SNAPSHOT-all@jar",
-          "name": "VideoPlayer",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 41076250,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_2-1.16.5/forgemods/optionalon/vplayer-1.3-1.16.5-SNAPSHOT-all.jar",
-            "MD5": "DE71DAFB8CA3422BA13CBD167EAEB761"
-          },
-          "required": {
-            "value": false
-          }
-        }
-      ]
-    },
-    {
-      "id": "Minecraft_3Fabric-1.16.5",
-      "name": "Minecraft Fabric 1.16.5",
-      "description": "FabricModが使える構成ギリ。使い慣れてる人推奨ギリ。※ForgeModは使えないギリ",
-      "icon": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_3Fabric-1.16.5/pack.png",
-      "version": "1.0.5",
-      "address": "play.kome-lab.net:25565",
-      "minecraftVersion": "1.16.5",
-      "discord": {
-        "shortId": "Fabric1.16.5",
-        "largeImageText": "Fabric1.16.5",
-        "largeImageKey": "pack_fabric"
-      },
-      "mainServer": false,
-      "autoconnect": false,
-      "modules": [
-        {
-          "id": "net.minecraftforge:forge:1.16.5-36.2.23:installer",
-          "name": "Minecraft Forge (installer)",
-          "type": "Forge",
-          "artifact": {
-            "size": 7391429,
-            "MD5": "8BD6AA68B6337F8495DDDF32A9D40238",
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/repo/lib/net/minecraftforge/forge/1.16.5-36.2.23/forge-1.16.5-36.2.23-installer.jar"
-          },
-          "subModules": []
-        },
-        {
-          "id": "com.sintinium.oauth.oauthfabric:oauth-fabric-1.0-1.16.5@jar",
-          "name": "OAuth",
-          "type": "File",
-          "artifact": {
-            "size": 51735,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_3Fabric-1.16.5/files/mods/oauth-fabric-1.0-1.16.5.jar",
-            "MD5": "6AB35F84D2A32CD90E0EDFD1A1C1BE84",
-            "path": "mods/oauth-fabric-1.0-1.16.5.jar"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "fabric-api-0.40.1+1.16.jar",
-          "name": "fabric-api-0.40.1+1.16.jar",
-          "type": "File",
-          "artifact": {
-            "size": 1081932,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_3Fabric-1.16.5/files/mods/fabric-api-0.40.1+1.16.jar",
-            "MD5": "7a3dbf956504701a0d1f0fb1b94f4808",
-            "path": "mods/fabric-api-0.40.1+1.16.jar"
-          },
-          "required": {
-            "value": true
-          }
-        },
-        {
-          "id": "jumploader-2.1.3.jar",
-          "name": "jumploader-2.1.3.jar",
-          "type": "File",
-          "artifact": {
-            "size": 193754,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_3Fabric-1.16.5/files/mods/jumploader-2.1.3.jar",
-            "MD5": "e5b0443cdf409b8cba7f0a20b006911b",
-            "path": "mods/jumploader-2.1.3.jar"
-          },
-          "required": {
-            "value": true
-          }
-        },
-        {
-          "id": "net.torocraft.torohealth:torohealth-1.16.5-fabric-6@jar",
-          "name": "ToroHealth Damage Indicators",
-          "type": "File",
-          "artifact": {
-            "size": 109932,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_3Fabric-1.16.5/files/mods/torohealth-1.16.5-fabric-6.jar",
-            "MD5": "2C24E73DF2B800D941D09927D9C8386B",
-            "path": "mods/torohealth-1.16.5-fabric-6.jar"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.mumfrey.worldeditcui:worldeditcui-1.16.5+02@jar",
-          "name": "WorldEdit-CUI",
-          "type": "File",
-          "artifact": {
-            "size": 127863,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_3Fabric-1.16.5/files/mods/WorldEditCUI-1.16.5+02.jar",
-            "MD5": "5E4F94A2A6E914BBADF95D4337355559",
-            "path": "mods/WorldEditCUI-1.16.5+02.jar"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "me.shedaniel.rei.plugin:RoughlyEnoughItems-5.12.248@jar",
-          "name": "RoughlyEnoughItems",
-          "type": "File",
-          "artifact": {
-            "size": 1137584,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_3Fabric-1.16.5/files/mods/RoughlyEnoughItems-5.12.248.jar",
-            "MD5": "CBF82CCB8F71192A4D524A2178EF39B1",
-            "path": "mods/RoughlyEnoughItems-5.12.248.jar"
-          },
-          "required": {
-            "value": false
-          }
-        }
-      ]
-    },
-    {
-      "id": "Minecraft_1RPG-1.16.5",
-      "name": "Yoshiko-RPG (Minecraft1.16.5)",
-      "description": "よしこRPG1.16.5用の構成ギリ。",
-      "icon": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_1RPG-1.16.5/pack.png",
-      "version": "1.0.5",
-      "address": "play.yoshiko-chan.fun",
-      "minecraftVersion": "1.16.5",
-      "discord": {
-        "shortId": "Yoshiko-chan-100k-Subs-Network",
-        "largeImageText": "Yoshiko-chan-100k-Subs-Network",
-        "largeImageKey": "pack_rpg"
-      },
-      "mainServer": true,
-      "autoconnect": false,
-      "modules": [
-        {
-          "id": "net.minecraftforge:forge:1.16.5-36.2.23:installer",
-          "name": "Minecraft Forge (installer)",
-          "type": "Forge",
-          "artifact": {
-            "size":7391429,
-            "MD5": "8BD6AA68B6337F8495DDDF32A9D40238",
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/repo/lib/net/minecraftforge/forge/1.16.5-36.2.23/forge-1.16.5-36.2.23-installer.jar"
-          },
-          "subModules": []
-        },
-        {
-          "id": "com.sintinium.oauth:oauth-1.1.4-1.16@jar",
-          "name": "OAuth",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 87805,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_1-1.16.5/forgemods/required/oauth-1.1.4-1.16.jar",
-            "MD5": "fd99bc57fe4509888a2f6dffc31169db"
-          },
-          "required": {
-            "value": true
-          }
-        },
-        {
-          "id": "worldeditcui-fe3-1.16.5-3.0.9@jar",
-          "name": "WorldEdit-CUI",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 869842,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_1RPG-1.16.5/forgemods/optionalon/WorldEdit-CUI-FE3-1.16.5-3.0.9.jar",
-            "MD5": "5E1CF122014961085243D00507EC360D"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "mezz.jei:jei-1.16.5-7.7.1.122@jar",
-          "name": "JustEnoughItems,",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 814235,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_1RPG-1.16.5/forgemods/optionalon/jei-1.16.5-7.7.1.122.jar",
-            "MD5": "2CB4DB18B135498A7EEE6C1B17926D1E"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "net.torocraft.torohealth:torohealth-1.16.4-forge-4@jar",
-          "name": "ToroHealth Damage Indicators",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 96418,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_1RPG-1.16.5/forgemods/optionalon/torohealth-1.16.4-forge-4.jar",
-            "MD5": "D2235DC66683C56B99929D7ED0992A52"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "net.kunmc.lab:vplayer-1.3-1.16.5-SNAPSHOT-all@jar",
-          "name": "VideoPlayer",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 41076250,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_1RPG-1.16.5/forgemods/optionalon/vplayer-1.3-1.16.5-SNAPSHOT-all.jar",
-            "MD5": "DE71DAFB8CA3422BA13CBD167EAEB761"
+            "size": 46420,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_5-1.12.2/forgemods/optionalon/oauth-1.06.1-1.12.jar",
+            "MD5": "dc090e808568920a924433c90af5c361"
           },
           "required": {
             "value": false
@@ -623,14 +689,14 @@
     {
       "id": "Minecraft_6-1.16.5",
       "name": "ガリバーMod(Minecraft 1.16.5)",
-      "description": "ガリバーModで遊べる構成ギリ。",
+      "description": "ガリバーModで遊ぶ構成ギリ。",
       "icon": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_6-1.16.5/pack.png",
       "version": "1.0.4",
       "address": "play.kome-lab.net:25565",
       "minecraftVersion": "1.16.5",
       "discord": {
-        "shortId": "ガリバーMod",
-        "largeImageText": "ガリバーMod",
+        "shortId": "Minecraft",
+        "largeImageText": "Minecraft1.16.5",
         "largeImageKey": "pack_gulliver"
       },
       "mainServer": false,
@@ -642,13 +708,49 @@
           "type": "Forge",
           "artifact": {
             "size": 7391429,
-            "MD5": "8BD6AA68B6337F8495DDDF32A9D40238",
+            "MD5": "8bd6aa68b6337f8495dddf32a9d40238",
             "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/repo/lib/net/minecraftforge/forge/1.16.5-36.2.23/forge-1.16.5-36.2.23-installer.jar"
           },
           "subModules": []
         },
         {
-          "id": "com.sintinium.oauth:oauth-1.1.4-1.16@jar",
+          "id": "com.mamiyaotaru.voxelmap.forgemod:voxelmap:1.10.15@jar",
+          "name": "VoxelMap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 827220,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_6-1.16.5/forgemods/optionalon/forgemod_VoxelMap-1.10.12_for_1.16.5.jar",
+            "MD5": "1b507d537838539a040e87e00acf92ff"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.teamfruit:gulliver:1.16.5-2.1.7@jar",
+          "name": "Gullivern",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 90055,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_6-1.16.5/forgemods/required/gullivern-1.16.5-2.1.7.jar",
+            "MD5": "7959b3591fd1297e8be5bccf124651cd"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:7.7.1.122@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 814235,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_6-1.16.5/forgemods/optionalon/jei-1.16.5-7.7.1.122.jar",
+            "MD5": "d2235dc66683c56b99929d7ed0992a52"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.sintinium:oauth:1.0@jar",
           "name": "OAuth",
           "type": "ForgeMod",
           "artifact": {
@@ -657,43 +759,17 @@
             "MD5": "fd99bc57fe4509888a2f6dffc31169db"
           },
           "required": {
-            "value": true
-          }
-        },
-        {
-          "id": "net.teamfruit.gulliver:gullivern-1.16.5-2.1.7@jar",
-          "name": "Gullivern",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 51399,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_6-1.16.5/forgemods/required/gullivern-1.16.5-2.1.7.jar",
-            "MD5": "7959B3591FD1297E8BE5BCCF124651CD"
-          },
-          "required": {
-            "value": true
-          }
-        },
-        {
-          "id": "mezz.jei:jei-1.16.5-7.7.1.122@jar",
-          "name": "JustEnoughItems,",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 814235,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_6-1.16.5/forgemods/optionalon/jei-1.16.5-7.7.1.122.jar",
-            "MD5": "2CB4DB18B135498A7EEE6C1B17926D1E"
-          },
-          "required": {
             "value": false
           }
         },
         {
-          "id": "net.torocraft.torohealth:torohealth-1.16.4-forge-4@jar",
-          "name": "ToroHealth Damage Indicators",
+          "id": "net.torocraft:torohealth:1.16.4-forge-4@jar",
+          "name": "ToroHealth",
           "type": "ForgeMod",
           "artifact": {
             "size": 96418,
             "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_6-1.16.5/forgemods/optionalon/torohealth-1.16.4-forge-4.jar",
-            "MD5": "D2235DC66683C56B99929D7ED0992A52"
+            "MD5": "2cb4db18b135498a7eee6c1b17926d1e"
           },
           "required": {
             "value": false
@@ -710,8 +786,8 @@
       "address": "play.kome-lab.net:25565",
       "minecraftVersion": "1.16.5",
       "discord": {
-        "shortId": "dora_kura",
-        "largeImageText": "dragon_craft",
+        "shortId": "Minecraft",
+        "largeImageText": "Minecraft1.16.5",
         "largeImageKey": "pack_dragon"
       },
       "mainServer": false,
@@ -723,122 +799,18 @@
           "type": "Forge",
           "artifact": {
             "size": 7391429,
-            "MD5": "8BD6AA68B6337F8495DDDF32A9D40238",
+            "MD5": "8bd6aa68b6337f8495dddf32a9d40238",
             "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/repo/lib/net/minecraftforge/forge/1.16.5-36.2.23/forge-1.16.5-36.2.23-installer.jar"
           },
           "subModules": []
         },
         {
-          "id": "net.torocraft.torohealth:citadel-1.8.1-1.16.5@jar",
-          "name": "ToroHealth Damage Indicators",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 96418,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_7-1.16.5/forgemods/required/citadel-1.8.1-1.16.5.jar",
-            "MD5": "D2235DC66683C56B99929D7ED0992A52"
-          },
-          "required": {
-            "value": true
-          }
-        },
-        {
-          "id": "com.blamejared.crafttweaker:CraftTweaker-1.16.5-7.1.2.471@jar",
-          "name": "CraftTweaker",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2459188,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_7-1.16.5/forgemods/required/CraftTweaker-1.16.5-7.1.2.471.jar",
-            "MD5": "3D6DBC89A11634FDA8FC9BCD5AE2F8C6"
-          },
-          "required": {
-            "value": true
-          }
-        },
-        {
-          "id": "com.github.alexthe666.iceandfire:iceandfire-2.1.9-1.16.5@jar",
-          "name": "Ice and Fire: Dragons",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 21314646,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_7-1.16.5/forgemods/required/iceandfire-2.1.9-1.16.5.jar",
-            "MD5": "abdaef27eb07a61fef4e28113ed774a2"
-          },
-          "required": {
-            "value": true
-          }
-        },
-        {
-          "id": "mezz.jei:jei-1.16.5-7.7.1.137@jar",
-          "name": "JustEnoughItems,",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 826748,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_7-1.16.5/forgemods/required/jei-1.16.5-7.7.1.137.jar",
-            "MD5": "04504a1efab9e4640567b6e7c0e73f38"
-          },
-          "required": {
-            "value": true
-          }
-        },
-        {
-          "id": "com.snowshock35.jeiintegration:jeiintegration_1.16.5-7.0.1.15@jar",
-          "name": "JEI Integration",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 24981,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_7-1.16.5/forgemods/required/jeiintegration_1.16.5-7.0.1.15.jar",
-            "MD5": "04504a1efab9e4640567b6e7c0e73f38"
-          },
-          "required": {
-            "value": true
-          }
-        },
-        {
-          "id": "com.sintinium.oauth:oauth-1.1.4-1.16@jar",
-          "name": "OAuth",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 87805,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_7-1.16.5/forgemods/required/oauth-1.1.4-1.16.jar",
-            "MD5": "fd99bc57fe4509888a2f6dffc31169db"
-          },
-          "required": {
-            "value": true
-          }
-        },
-        {
-          "id": "mcjty.theoneprobe:theoneprobe-1.16-3.1.4@jar",
-          "name": "The One Probe",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 327081,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_7-1.16.5/forgemods/required/theoneprobe-1.16-3.1.4.jar",
-            "MD5": "c606d2dee3f61a20ad0bcbb9d8bb4ca1"
-          },
-          "required": {
-            "value": true
-          }
-        },
-        {
-          "id": "net.darkhax.wawla:WAWLA-1.16.5-8.0.1@jar",
-          "name": "WAWLA",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 31378,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_7-1.16.5/forgemods/required/WAWLA-1.16.5-8.0.1.jar",
-            "MD5": "5547345e4e31b70dd1f7f69424da736c"
-          },
-          "required": {
-            "value": true
-          }
-        },
-        {
-          "id": "squeek.appleskin:appleskin-forge-mc1.16.x-2.2.0.jar",
-          "name": "Apple Skin",
+          "id": "squeek.appleskin:appleskin:mc1.16.4-2.2.0@jar",
+          "name": "AppleSkin",
           "type": "ForgeMod",
           "artifact": {
             "size": 46203,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_7-1.16.5/forgemods/optionalon/torohealth-1.16.4-forge-4.jar",
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_7-1.16.5/forgemods/optionalon/appleskin-forge-mc1.16.x-2.2.0.jar",
             "MD5": "c5ded15dfa4728d3901885ccf5937f38"
           },
           "required": {
@@ -846,12 +818,12 @@
           }
         },
         {
-          "id": "net.darkhax.bookshelf:Bookshelf-Forge-1.16.5-10.3.29@jar",
+          "id": "net.darkhax:bookshelf:10.3.29@jar",
           "name": "Bookshelf",
           "type": "ForgeMod",
           "artifact": {
             "size": 315420,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_7-1.16.5/forgemods/optionalon/forgemod_VoxelMap-1.10.12_for_1.16.5.jar",
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_7-1.16.5/forgemods/optionalon/Bookshelf-Forge-1.16.5-10.3.29.jar",
             "MD5": "9de4cb4556d2f19aa4c37ae3a3345449"
           },
           "required": {
@@ -859,7 +831,40 @@
           }
         },
         {
-          "id": "com.mamiyaotaru.voxelmap:forgemod_VoxelMap-1.10.12_for_1.16.5@jar",
+          "id": "com.github.alexthe666:citadel:1.8.1@jar",
+          "name": "Citadel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 482439,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_7-1.16.5/forgemods/required/citadel-1.8.1-1.16.5.jar",
+            "MD5": "9ee0682eec5d343c6238e30c21c98e69"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:citadel:1.8.1@jar",
+          "name": "Citadel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 482439,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_7-1.16.5/forgemods/optionalon/citadel-1.8.1-1.16.5.jar",
+            "MD5": "9ee0682eec5d343c6238e30c21c98e69"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.blamejared:crafttweaker:7.1.2.471@jar",
+          "name": "CraftTweaker",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2459188,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_7-1.16.5/forgemods/required/CraftTweaker-1.16.5-7.1.2.471.jar",
+            "MD5": "3d6dbc89a11634fda8fc9bcd5ae2f8c6"
+          }
+        },
+        {
+          "id": "com.mamiyaotaru.voxelmap.forgemod:voxelmap:1.10.15@jar",
           "name": "VoxelMap",
           "type": "ForgeMod",
           "artifact": {
@@ -872,8 +877,18 @@
           }
         },
         {
-          "id": "dlovin.inventoryhud:InventoryHud_[1.16.2-1.16.5].forge-3.4.1@jar",
-          "name": "Inventory HUD+",
+          "id": "com.github.alexthe666:iceandfire:2.1.9-1.16.5@jar",
+          "name": "Ice and Fire",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 21314646,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_7-1.16.5/forgemods/required/iceandfire-2.1.9-1.16.5.jar",
+            "MD5": "abdaef27eb07a61fef4e28113ed774a2"
+          }
+        },
+        {
+          "id": "dlovin.inventoryhud:inventoryhud:3.4.1@jar",
+          "name": "Inventory HUD+(Forge edition)",
           "type": "ForgeMod",
           "artifact": {
             "size": 197654,
@@ -885,81 +900,151 @@
           }
         },
         {
-          "id": "mezz.jei:jei-1.16.5-7.7.1.122@jar",
-          "name": "Just Enough Items (JEI)",
+          "id": "mezz.jei:jei:7.7.1.122@jar",
+          "name": "Just Enough Items",
           "type": "ForgeMod",
           "artifact": {
             "size": 814235,
             "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_7-1.16.5/forgemods/optionalon/jei-1.16.5-7.7.1.122.jar",
-            "MD5": "04504a1efab9e4640567b6e7c0e73f38"
+            "MD5": "d2235dc66683c56b99929d7ed0992a52"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "magnesium:magnesium-1.5@jar",
+          "id": "mezz.jei:jei:7.7.1.137@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 826748,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_7-1.16.5/forgemods/required/jei-1.16.5-7.7.1.137.jar",
+            "MD5": "04504a1efab9e4640567b6e7c0e73f38"
+          }
+        },
+        {
+          "id": "com.snowshock35:jeiintegration:7.0.1.15@jar",
+          "name": "JEI Integration",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 24981,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_7-1.16.5/forgemods/required/jeiintegration_1.16.5-7.0.1.15.jar",
+            "MD5": "2f08123cf9244d87b717384b752f41d3"
+          }
+        },
+        {
+          "id": "generated.forgemod:jmt_mcmt:1.16.5-0.22.87@jar",
+          "name": "Jmt_mcmt",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 178052,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_7-1.16.5/forgemods/optionalon/jmt_mcmt-1.16.5-0.22.87.jar",
+            "MD5": "7b714f318df4c0935bb0c42909e5338b"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:magnesium:1.5@jar",
           "name": "Magnesium",
           "type": "ForgeMod",
           "artifact": {
             "size": 541088,
             "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_7-1.16.5/forgemods/optionalon/magnesium-1.5.jar",
-            "MD5": "E399EC4581DF33A5CB7A0D6A0450A08B"
+            "MD5": "e399ec4581df33a5cb7a0d6a0450a08b"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "com.github.hexomod.worldeditcuife3:worldedit-mod-7.2.5-dist@jar",
+          "id": "com.sintinium:oauth:1.0@jar",
+          "name": "OAuth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 87805,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_7-1.16.5/forgemods/required/oauth-1.1.4-1.16.jar",
+            "MD5": "fd99bc57fe4509888a2f6dffc31169db"
+          }
+        },
+        {
+          "id": "slimeknights.tconstruct:tconstruct:3.2.1.296@jar",
+          "name": "Tinkers' Construct",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 12123466,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_7-1.16.5/forgemods/optionalon/TConstruct-1.16.5-3.2.1.296.jar",
+            "MD5": "a1702ecfd7faea87051fc1302d54851b"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "mcjty.theoneprobe:theoneprobe:1.16-3.1.4@jar",
+          "name": "The One Probe",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 327081,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_7-1.16.5/forgemods/required/theoneprobe-1.16-3.1.4.jar",
+            "MD5": "c606d2dee3f61a20ad0bcbb9d8bb4ca1"
+          }
+        },
+        {
+          "id": "net.torocraft:torohealth:1.16.4-forge-4@jar",
+          "name": "ToroHealth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 96418,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_7-1.16.5/forgemods/optionalon/torohealth-1.16.4-forge-4.jar",
+            "MD5": "2cb4db18b135498a7eee6c1b17926d1e"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "squeek.wailaharvestability:wailaharvestability:1.1.15@jar",
+          "name": "Waila Harvestability",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 29421,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_7-1.16.5/forgemods/required/WailaHarvestability-mc1.16.x-forge-1.1.15.jar",
+            "MD5": "5dd65df652593d1e528205f52cdc2775"
+          }
+        },
+        {
+          "id": "net.darkhax:wawla:8.0.1@jar",
+          "name": "WAWLA",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 31378,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_7-1.16.5/forgemods/required/WAWLA-1.16.5-8.0.1.jar",
+            "MD5": "5547345e4e31b70dd1f7f69424da736c"
+          }
+        },
+        {
+          "id": "com.github.hexomod:worldeditcuife3:3.0.9@jar",
+          "name": "WorldEdit CUI Forge Edition 3",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 869842,
+            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_7-1.16.5/forgemods/optionalon/WorldEdit-CUI-FE3-1.16.5-3.0.9.jar",
+            "MD5": "5e1cf122014961085243d00507ec360d"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.sk89q:worldedit:7.2.5+57d5ac9@jar",
           "name": "WorldEdit",
           "type": "ForgeMod",
           "artifact": {
             "size": 5312767,
             "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_7-1.16.5/forgemods/optionalon/worldedit-mod-7.2.5-dist.jar",
             "MD5": "96ff53c70d4a3ff9df5592462b0f0685"
-          },
-          "required": {
-            "value": false
-          }
-        }
-      ]
-    },
-    {
-      "id": "Minecraft_100-1.18.2",
-      "name": "使用不可-開発者用",
-      "description": "使用不可-開発者用",
-      "icon": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_100-1.18.2/pack.png",
-      "version": "0.0.1",
-      "address": "play.kome-lab.net:25565",
-      "minecraftVersion": "1.18.2",
-      "discord": {
-        "shortId": "バニラ1.18.2",
-        "largeImageText": "バニラ1.18.2",
-        "largeImageKey": "pack_18"
-      },
-      "mainServer": false,
-      "autoconnect": false,
-      "modules": [
-        {
-          "id": "net.minecraftforge:forge:1.18.2-40.0.2:installer",
-          "name": "Minecraft Forge (installer)",
-          "type": "Forge",
-          "artifact": {
-            "size": 6892042,
-            "MD5": "6349A9203963012599A2674BD40BA61B",
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/repo/lib/net/minecraftforge/forge/1.18.2-40.0.2/forge-1.18.2-40.0.2-installer.jar"
-          },
-          "subModules": []
-        },
-        {
-          "id": "com.sintinium.oauth:oauth-1.1.12-1.18.2@jar",
-          "name": "OAuth",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 98172,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_100-1.18.2/forgemods/required/oauth-1.1.12-1.18.2.jar",
-            "MD5": "A45A0EFD136EB9E04644B060FE714721"
           },
           "required": {
             "value": false

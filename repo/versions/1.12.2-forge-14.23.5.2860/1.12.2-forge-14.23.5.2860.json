@@ -10,9 +10,7 @@
     "type": "release",
     "mainClass": "net.minecraft.launchwrapper.Launch",
     "inheritsFrom": "1.12.2",
-    "logging": {
-        
-    },
+    "logging": {},
     "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --tweakClass net.minecraftforge.fml.common.launcher.FMLTweaker --versionType Forge",
     "libraries": [
         {
@@ -236,25 +234,25 @@
             }
         },
         {
-            "name": "org.apache.logging.log4j:log4j-api:2.17.2",
+            "name": "org.apache.logging.log4j:log4j-api:2.15.0",
             "downloads": {
-              "artifact": {
-                "path": "org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar",
-                "url": "https://maven.minecraftforge.net/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar",
-                "sha1": "00AE567DABF40EEC11027B8BE59EBDCA65A5AD06",
-                "size": 302511
-              }
+                "artifact": {
+                    "path": "org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar",
+                    "url": "https://maven.minecraftforge.net/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar",
+                    "sha1": "4a5aa7e55a29391c6f66e0b259d5189aa11e45d0",
+                    "size": 301804
+                }
             }
         },
         {
-            "name": "org.apache.logging.log4j:log4j-core:2.17.2",
+            "name": "org.apache.logging.log4j:log4j-core:2.15.0",
             "downloads": {
-              "artifact": {
-                "path": "org/apache/logging/log4j/log4j-core/2.17.2/log4j-core-2.17.2.jar",
-                "url": "https://maven.minecraftforge.net/org/apache/logging/log4j/log4j-core/2.17.2/log4j-core-2.17.2.jar",
-                "sha1": "70BFABC6EF2D35188EE4615BEBC1416080C6F76F",
-                "size": 1811090
-              }
+                "artifact": {
+                    "path": "org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar",
+                    "url": "https://maven.minecraftforge.net/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar",
+                    "sha1": "ba55c13d7ac2fd44df9cc8074455719a33f375b9",
+                    "size": 1789769
+                }
             }
         }
     ]
