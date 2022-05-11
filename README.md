@@ -1,3 +1,3 @@
 # KomePacks
 
-#####  かめすた先生様様 & 🄫 2021- Yoahiko-RPG-ManagementTeam & StudioKometubu
+#####  🄫 2021- KomeLab & StudioKometubu
