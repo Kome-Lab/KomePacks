@@ -24,7 +24,7 @@ jobs:
       - name: Checkout Nebula
         uses: actions/checkout@v2
         with:
-          repository: Kome-Lab/KomeNebula
+          repository: dscalzi/Nebula
 
       - name: Checkout Packs
         uses: actions/checkout@v2

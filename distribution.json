@@ -1,5 +1,5 @@
 {
-  "version": "1.1.5",
+  "version": "1.1.6",
   "rss": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/news/news.rss",
   "discord": {
     "clientId": "892636912781758485",
@@ -918,48 +918,6 @@
             "size": 5312767,
             "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_7-1.16.5/forgemods/optionalon/worldedit-mod-7.2.5-dist.jar",
             "MD5": "96ff53c70d4a3ff9df5592462b0f0685"
-          },
-          "required": {
-            "value": false
-          }
-        }
-      ]
-    },
-    {
-      "id": "Minecraft_100-1.18.2",
-      "name": "使用不可-開発者用",
-      "description": "使用不可-開発者用",
-      "icon": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_100-1.18.2/pack.png",
-      "version": "0.0.1",
-      "address": "play.kome-lab.net:25565",
-      "minecraftVersion": "1.18.2",
-      "discord": {
-        "shortId": "バニラ1.18.2",
-        "largeImageText": "バニラ1.18.2",
-        "largeImageKey": "pack_18"
-      },
-      "mainServer": false,
-      "autoconnect": false,
-      "modules": [
-        {
-          "id": "net.minecraftforge:forge:1.18.2-40.0.2:installer",
-          "name": "Minecraft Forge (installer)",
-          "type": "Forge",
-          "artifact": {
-            "size": 6892042,
-            "MD5": "6349A9203963012599A2674BD40BA61B",
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/repo/lib/net/minecraftforge/forge/1.18.2-40.0.2/forge-1.18.2-40.0.2-installer.jar"
-          },
-          "subModules": []
-        },
-        {
-          "id": "com.sintinium.oauth:oauth-1.1.12-1.18.2@jar",
-          "name": "OAuth",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 98172,
-            "url": "https://raw.githubusercontent.com/Kome-Lab/KomePacks/deploy/servers/Minecraft_100-1.18.2/forgemods/required/oauth-1.1.12-1.18.2.jar",
-            "MD5": "A45A0EFD136EB9E04644B060FE714721"
           },
           "required": {
             "value": false
